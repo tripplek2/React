@@ -1,18 +1,32 @@
-# React + Vite
+## Personal Blog
+This is a simple react blog using components and props.it displays blog information and a list of articles.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+1.Component structure.
+2.Dynamic updates.
+3.Clean and simple UI.
 
-Currently, two official plugins are available:
+## Technologies used
+1.Javascript.
+2.Jsx.
+3.React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## How to run
+1.Install install.
+2.npm start and then open in the browser: http://localhost:5173/
 
-## React Compiler
+## Component structure 
+App(Parent)
+*Header(Child)
+*Article(Child)
+*Articlelist(Child)
+*Article(Grandchild)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Testing 
+Run-npm test 
 
-Note: This will impact Vite dev & build performances.
+## Screenshot
+![alt text](image.png)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Author
+Kelvin Korir
