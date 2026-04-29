@@ -18,7 +18,7 @@ This is a simple react blog using components and props.it displays blog informat
 ## Component structure 
 App(Parent)
 *Header(Child)
-*Article(Child)
+*About(Child)
 *Articlelist(Child)
 *Article(Grandchild)
 
@@ -26,7 +26,7 @@ App(Parent)
 Run-npm test 
 
 ## Screenshot
-![alt text](image.png)
+
 
 ## Author
 Kelvin Korir
