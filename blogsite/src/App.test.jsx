@@ -1,7 +1,9 @@
 import { test, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom";
+import * as matchers from "@testing-library/jest-dom/matchers";
 import App from "./App";
+
+expect.extend(matchers);
 
 test("renders blog name", () => {
     render(<App />);
